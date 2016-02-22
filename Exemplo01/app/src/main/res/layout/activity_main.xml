@@ -19,5 +19,14 @@
         android:layout_centerHorizontal="true"
         android:textAllCaps="false"
         android:clickable="true"
-        android:onClick="onClickBtBotao" /> <!-- G: Associando o método onClickBtBotao da classe MainActivity -->
+        android:onClick="onClickBtBotao" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botao2"
+        android:id="@+id/btBotao2"
+        android:layout_below="@+id/btBotao"
+        android:layout_centerHorizontal="true" />
+    <!-- G: Associando o método onClickBtBotao da classe MainActivity -->
 </RelativeLayout>
