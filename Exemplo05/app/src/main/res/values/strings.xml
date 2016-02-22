@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exemplo05</string>
+    <string name="numeroUm">número um</string>
+    <string name="numeroDois">número dois</string>
+    <string name="somar">somar</string>
+    <string name="resultado">resultado</string>
+</resources>
