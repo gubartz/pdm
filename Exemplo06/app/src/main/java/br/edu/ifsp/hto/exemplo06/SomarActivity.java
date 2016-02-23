@@ -12,8 +12,8 @@ public class SomarActivity extends DebugActivity {
 
         //Outra maneira de recuperar os valores passados por argumento
         double num1, num2, resultado;
-        num1 = getIntent().getDoubleExtra("num1", 0);
-        num2 = getIntent().getDoubleExtra("num2", 0);
+        num1 = getIntent().getDoubleExtra(MainActivity.EXTRA_NUM1, 0);
+        num2 = getIntent().getDoubleExtra(MainActivity.EXTRA_NUM2, 0);
         resultado  = somar(num1, num2);
         String sResultado = Double.toString(resultado);
 

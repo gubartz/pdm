@@ -8,6 +8,8 @@ import android.widget.EditText;
 
 public class MainActivity extends DebugActivity {
     final Context context = this;
+    public final static String EXTRA_NUM1 = "br.edu.ifsp.hto.NUM1";
+    public final static String EXTRA_NUM2 = "br.edu.ifsp.hto.NUM2";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +26,8 @@ public class MainActivity extends DebugActivity {
 
         Intent intent = new Intent(context, SomarActivity.class);
         //Simplificando a passagem de parâmetros
-        intent.putExtra("num1", numero1);
-        intent.putExtra("num2", numero2);
+        intent.putExtra(EXTRA_NUM1, numero1);
+        intent.putExtra(EXTRA_NUM2, numero2);
         startActivity(intent);
     }
 }
