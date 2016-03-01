@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="2">
+
+    <TableRow>
+
+        <TextView android:text="Coluna 1" />
+
+        <TextView android:text="Coluna 2" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="Coluna 1" />
+
+        <TextView android:text="Coluna 2" />
+
+        <TextView android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a vehicula sem. Maecenas venenatis finibus massa et vestibulum." />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="Coluna 1" />
+
+        <TextView android:text="Coluna 2" />
+
+        <TextView android:text="Coluna 3" />
+    </TableRow>
+</TableLayout>
