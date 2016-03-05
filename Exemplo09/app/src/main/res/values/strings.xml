@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exemplo09</string>
+    <string name="numero">numeroa %1$S</string>
+    <string name="somar">Somar</string>
+</resources>
