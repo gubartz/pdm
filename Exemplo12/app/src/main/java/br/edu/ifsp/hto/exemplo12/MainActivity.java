@@ -25,4 +25,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onClickBtImageButtonActivity(View view) {
+        Intent intent = new Intent(this, ImageButtonActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickBtCheckToggleButtonActivity(View view) {
+        Intent intent = new Intent(this, CheckButtonActivity.class);
+        startActivity(intent);
+    }
 }

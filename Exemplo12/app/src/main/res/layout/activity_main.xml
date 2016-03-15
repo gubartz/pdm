@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/mainLayout"
     tools:context="br.edu.ifsp.hto.exemplo12.MainActivity">
 
     <Button
@@ -26,6 +27,24 @@
         android:layout_gravity="center_horizontal"
         android:onClick="onClickBtAdapterInflateActivity"
         android:text="AdapterInflateActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btImageButtonActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickBtImageButtonActivity"
+        android:text="ImageButton"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btCheckToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickBtCheckToggleButtonActivity"
+        android:text="Check e Toggle Button"
         android:textAllCaps="false" />
 
 

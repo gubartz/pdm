@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".AutoCompleteViewActivity" />
-        <activity android:name=".AdapterInflateActivity"></activity>
+        <activity android:name=".AdapterInflateActivity" />
+        <activity android:name=".ImageButtonActivity" />
+        <activity android:name=".CheckButtonActivity" />
     </application>
 
 </manifest>
