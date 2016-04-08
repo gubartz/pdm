@@ -1,0 +1,39 @@
+package br.edu.ifsp.hto.exemplo19.domain;
+
+import com.google.gson.annotations.SerializedName;
+
+public class Departamento{
+    @SerializedName("id")
+    private long id;
+
+    @SerializedName("nome_dep")
+    private String nome;
+
+    @SerializedName("local_dep")
+    private String local;
+
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getLocal() {
+        return local;
+    }
+
+    public void setLocal(String local) {
+        this.local = local;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+}
