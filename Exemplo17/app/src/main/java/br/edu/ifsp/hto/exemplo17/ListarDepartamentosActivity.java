@@ -12,7 +12,7 @@ import java.util.List;
 import br.edu.ifsp.hto.exemplo17.domain.Departamento;
 import br.edu.ifsp.hto.exemplo17.domain.DepartamentoService;
 
-public class ListarDepartamentos extends AppCompatActivity implements AdapterView.OnItemClickListener{
+public class ListarDepartamentosActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     private ListView mListView;
     private List<Departamento> departamentos;
 
@@ -24,7 +24,7 @@ public class ListarDepartamentos extends AppCompatActivity implements AdapterVie
         mListView = (ListView) findViewById(R.id.listView);
         departamentos = DepartamentoService.getDepartamentos(this);
 
-        mListView.setAdapter(new DepartamentoAdapter(this, departamentos));
+        mListView.setAdapter(new DepartamentoAdapter(this, null));
     }
 
     @Override

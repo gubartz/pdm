@@ -15,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickBtAdicionarDepartamento(View view) {
-        Intent intent = new Intent(this, AdicionarDepartamento.class);
+        Intent intent = new Intent(this, AdicionarDepartamentoActivity.class);
 
         startActivity(intent);
     }
 
     public void onClickBtListarDepartamentos(View view) {
-        Intent intent = new Intent(this, ListarDepartamentos.class);
+        Intent intent = new Intent(this, ListarDepartamentosActivity.class);
 
         startActivity(intent);
     }

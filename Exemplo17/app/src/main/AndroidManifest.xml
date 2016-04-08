@@ -15,8 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListarDepartamentos" />
-        <activity android:name=".AdicionarDepartamento"></activity>
+        <activity android:name=".ListarDepartamentosActivity" />
+        <activity android:name=".AdicionarDepartamentoActivity"></activity>
     </application>
 
 </manifest>

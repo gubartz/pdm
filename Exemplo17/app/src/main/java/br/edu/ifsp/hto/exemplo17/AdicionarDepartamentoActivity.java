@@ -11,7 +11,7 @@ import java.util.List;
 import br.edu.ifsp.hto.exemplo17.domain.Departamento;
 import br.edu.ifsp.hto.exemplo17.domain.DepartamentoService;
 
-public class AdicionarDepartamento extends AppCompatActivity {
+public class AdicionarDepartamentoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
