@@ -15,8 +15,7 @@ public class DepartamentoService {
 
         for(Departamento departamento : departamentos){
             Log.d(TAG, "Salvando departamento " + departamento.getNome());
-            Departamento dep = new Departamento(departamento.getNome(), departamento.getLocal());
-            dep.save();
+            departamento.save();
         }
 
     }
