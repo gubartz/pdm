@@ -20,7 +20,7 @@ $container['logger'] = function ($c) {
 
 //database
 $container['db'] = function ($c){
-    $db = $c['settings']['db'];
+    $db = $c->get('settings')['db'];
     $pdo = new PDO("pgsql:host=" . $db['host'] . ";dbname=" . $db['dbname'],
         $db['user'], $db['pass']);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
