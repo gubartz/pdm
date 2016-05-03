@@ -3,7 +3,7 @@ package br.edu.ifsp.hto.exemplo19.domain;
 import com.google.gson.annotations.SerializedName;
 
 public class Departamento{
-    @SerializedName("id")
+    @SerializedName("n_dep")
     private long id;
 
     @SerializedName("nome_dep")
