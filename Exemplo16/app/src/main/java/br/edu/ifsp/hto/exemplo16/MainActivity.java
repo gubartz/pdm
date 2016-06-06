@@ -7,9 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TableLayout;
-
-import br.edu.ifsp.hto.exemplo16.tabs.SlidingTabLayout;
 
 public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
