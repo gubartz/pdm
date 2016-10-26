@@ -27,7 +27,7 @@ public class DepartamentoTask extends AsyncTask<Void, Void, List<Departamento>> 
     @Override
     protected List<Departamento> doInBackground(Void... params) {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.1.6:8080/")
+                .baseUrl("http://192.168.0.161:8080/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -50,10 +50,10 @@ public class DepartamentoTask extends AsyncTask<Void, Void, List<Departamento>> 
 
     @Override
     protected void onPostExecute(List<Departamento> departamentos) {
-        Log.d("Saida", "" + departamentos.size());
 
         if(departamentos != null){
             recyclerView.setAdapter(new DepartamentoAdapter(context, departamentos));
+            Log.d("Saida", "" + departamentos.size());
         }
     }
 }
